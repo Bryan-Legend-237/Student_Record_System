@@ -1,0 +1,121 @@
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: linear-gradient(to top,rgba(0, 0, 0, 0.767),rgba(0, 0, 0, 0.74)),url("images/gh.jpg");
+    width: 100%;
+    height: 550px;
+  }
+  
+  .container{
+    background-color: transparent;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.76);
+    background-position: center;
+    width: 400px ;
+    height:270px;
+    margin-left: 400px;
+    margin-top: 100px;
+    padding-bottom: 59px;
+    position: relative;
+  }
+  
+  .button2{
+    width: 150px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 25px; 
+    background-color: transparent;
+    color: black;
+    border: 2px solid purple;
+    border-radius: 7px 7px 7px 7px;
+  }
+  
+  .button2:hover {
+    background-color: purple; 
+    color: white;
+  }
+
+  .cb{
+    color: rgb(154, 81, 238);
+    font-size: 25px;
+    font-family:'Franklin Gothic Medium';
+  }
+  
+  
+  .button3{
+    width: 150px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 25px; 
+    background-color: transparent;
+    color: black;
+    border: 2px solid rgb(125, 165, 240);
+    border-radius: 7px 7px 7px 7px;
+  }
+  
+  .button3:hover {
+    background-color: rgb(85, 165, 240); 
+    color: white;
+  }
+
+  .bc{
+    color: rgb(55, 131, 245);
+    font-size: 25px;
+    font-family:'Franklin Gothic Medium';
+  }
+
+  .submission-form{
+    width: 200px;
+    margin: 30px;
+    border: 10px rgba(0, 0, 0, 0);
+    padding: 5px;
+  }
+  
+  .input, textarea{
+    display: block;
+    width: 350px;
+    background-color: rgba(0, 0, 0, 0.37);
+    height: 30px;
+    border-radius: 10px 10px 10px 10px;
+    margin-left: 20px;
+  }
+  
+  .label{
+    display: block;
+    width: 100%;
+    background-color: transparent;
+    height: 30px;
+  
+  }
+  
+  .button1{
+    width:300px;
+    height: 50px;
+    background-color: rgb(175, 4, 4);
+    color: white;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius:  15px 15px 15px 15px;
+    margin-left: 40px;
+  }
+
+  a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;   
+  }
+  
+  ::placeholder{
+    color: white;
+  }
+
+  .gf{
+    margin-left: 25px;
+    color: white;
+  }
